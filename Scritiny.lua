@@ -1,6 +1,6 @@
 <?
 -- Variables definition
-videoFps    = 60
+videoFps    = onj.framerate
 objFrame    = obj.totalframe
 totalSecond = (objFrame / videoFps) * 1000
 runMinute   = (math.floor(totalSecond)) / 60000
